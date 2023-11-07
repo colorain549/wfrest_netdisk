@@ -1,0 +1,18 @@
+// 生成.h和.cc文件
+// protoc --cpp_out=./ user.proto
+
+syntax="proto3";
+
+// 定义一个请求消息
+message ReqSignup
+{
+    // required 必须出现(默认)
+    // optional 可选
+    // repeated 可重复出现, 表示数组
+    // 类型 字段名 编号
+    string username = 1;
+    string password = 2;   
+    // string address = 3;
+}
+
+// 补充: 字段名不重要, 不影响编码
