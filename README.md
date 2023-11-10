@@ -41,7 +41,7 @@
 ![upload](/images/upload.png)
 7. 阿里云OSS
 ![OSS](/images/OSS.png)
-8. 下载页面
+8. 查询/下载页面
 ![download](/images/download.png)
 
 * 其它详情请查看18_final_version中的README.md
