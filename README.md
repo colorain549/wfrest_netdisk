@@ -8,7 +8,7 @@
 5. 基于consul的注册中心(docker部署)  
 ...
 
-## Framework
+## Framework(大致框架,非精确框架)
 ![Framework](/images/framwork.png)
 
 ## 主要功能一览
@@ -26,7 +26,25 @@
 ...
 
 ## Quick start
-* 请查看18_final_version中的README.md
+0. 更改ip, MySQL, OSS账号信息, 配置阿里云AccessKey, 配置Nginx, Consul和RabbitMQ
+1. 开启已配置好的Nginx, Consul和RabbitMQ
+![Nginx_Consul](/images/ngx_consul_rabbitmq.png)
+2. 编译后依次开启3个进程
+![run](/images/run.png)
+3. 使用浏览器访问注册页面(注意更换为自己的ip)
+![signup](/images/signup.png)
+4. 登录页面
+![signin](/images/signin.png)
+5. 用户主页
+![home](/images/home.png)
+6. 上传页面
+![upload](/images/upload.png)
+7. 阿里云OSS
+![OSS](/images/OSS.png)
+8. 下载页面
+![download](/images/download.png)
+
+* 其它详情请查看18_final_version中的README.md
 
 ## 补充
 * 部分README.md可能含有错误信息, 持续更新中...
